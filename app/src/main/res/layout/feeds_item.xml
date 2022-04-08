@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/txt_Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TE"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/circle"/>
+
+    <LinearLayout
+        app:layout_constraintLeft_toRightOf="@id/txt_Logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="fill_vertical|left"
+        android:layout_marginStart="10dp">
+        <TextView
+            android:text="test"
+            android:id="@+id/txt_FeedTitle"
+            style="@style/feedTitleStyle"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txt_FeedUrl"
+            android:text="Test"
+            android:textColor="@color/colorXLightGrey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

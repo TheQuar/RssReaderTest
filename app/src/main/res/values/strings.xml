@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RssReaderTest</string>
+
+    <string name="menu1">News</string>
+    <string name="menu2">My Feeds</string>
+    <string name="alert_title">Attention!</string>
+    <string name="alert_message">Unable to load data. \nCheck your connection!</string>
+    <string name="alert_positive">Close</string>
+    <string name="video">Video</string>
+    <string name="info_text">This is a simple app that shows the use of RSS Parse library.
+         &lt;br /&gt;&lt;br /&gt;You can find the source code on </string>
+    <string name="author">&lt;br /&gt;&lt;br /&gt;Written by Marco Gomiero</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
